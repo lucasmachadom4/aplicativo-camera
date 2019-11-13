@@ -4,16 +4,16 @@ Criação de um aplicativo utilizando o recurso da câmera
 
 Utilizando a API [BarCodeScanner](https://github.com/dm77/barcodescanner) foi criado um leitor que QR Code
   
-![Imagem1 do app](https://i.imgur.com/aBTQ8i0.jpg)  
+![Imagem1 do app](https://i.imgur.com/aBTQ8i0m.jpg)  
   
-![Imagem2 do app](https://i.imgur.com/NQEKjvc.jpg)  
+![Imagem2 do app](https://i.imgur.com/NQEKjvcm.jpg)  
 
-###Dependencias  
+### Dependencia  
 ```
     implementation 'me.dm7.barcodescanner:zxing:1.9.13'
 ```
 
-###Permissões   
+### Permissões   
 ```
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.FLASHLIGHT" />
@@ -26,7 +26,7 @@ Utilizando a API [BarCodeScanner](https://github.com/dm77/barcodescanner) foi cr
         android:required="true" />
 ```
 
-###Metodos essenciais do app:
+### Metodos essenciais do app:
 ```
  @Override
     public void handleResult(Result rawResult) {
